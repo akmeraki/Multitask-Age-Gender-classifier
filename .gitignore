@@ -1,0 +1,9 @@
+
+*.jpg
+__pycache__/
+.cache
+*.ipynb_checkpoints
+*.log
+*.json
+*.pt
+*.txt
