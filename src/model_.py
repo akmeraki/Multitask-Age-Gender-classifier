@@ -54,10 +54,12 @@ class Base_CNN_multi_task(nn.Module):
 
         # head 1 age 
         x1 = self.head1(x)
-    
+        # print(x1.shape)
+        
         # head 2 gender
         x2 = self.head2(x)
-    
+        # print(x2.shape)
+
         return x1,x2
 
 

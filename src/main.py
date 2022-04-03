@@ -250,8 +250,6 @@ def train(args):
     best_model_path = os.path.join(best_model_folder,"{}_best_model.pt".format(model_name))
 
 
-
-
     valid_loss_min_input = np.Inf
 
     for i in range(args.epochs):
