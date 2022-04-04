@@ -3,21 +3,19 @@ This project was created to built a streamlit application that predicts Age and 
 To build the model we create a Multitask network to classify Age category and Gender. 
 
 
-# Requirements
+## Requirements
 - [PyTorch](https://pytorch.org/) (An open source deep learning platform) 
 - [Streamlit](https://streamlit.io/) (An open-source app framework for Machine Learning and Data Science teams)
 
-# Table of Contents
--  [Folder Structure](#Folder-Structure) 
+## Table of Contents
+-  [Folder Structure](#Folder-Structure)
+-  [Preprocessing](#Preprocessing) 
 -  [Train a model](#Train-a-model)
 -  [Model Architecture](#Model-Architecture)
 -  [Future Work](#future-work)
 -  [Acknowledgments](#acknowledgments)
 
-# Train a model
-
-
-# Folder Structure
+## Folder Structure
 ```
 ├──  data    - folder where the data & meta data is stored
 │    └── aligned  - Image dataset  
@@ -40,12 +38,16 @@ To build the model we create a Multitask network to classify Age category and Ge
 ├── Testing_Gender_Age_classifier.ipynb   - This Jupter notebook is for Training the Multi-task Classifier models locally 
 ```
 
+## Preprocessing
 
-# Future Work 
+## Train a model
+
+
+## Future Work 
 
 
 
 
-# Acknowledgements 
+## Acknowledgements 
 
 

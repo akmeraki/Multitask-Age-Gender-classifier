@@ -21,6 +21,7 @@ import torchvision
 import torch.distributed as dist
 import torch.optim as optim
 from torchvision import transforms, utils
+torch.cuda.empty_cache()
 
 from torch.utils.data import Dataset, DataLoader
 import torch.utils.data.distributed 
